@@ -1,0 +1,196 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+/* Navbar */
+/* Side Navbar - Left Side Fixed */
+.side-navbar {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background-color: #f8f9fa;
+  padding: 20px 10px;
+  border-right: 1px solid #ddd;
+  height: auto;
+  z-index: 1000;
+  box-shadow: 2px 0 6px rgba(0, 0, 0, 0.05);
+}
+
+.side-navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.side-navbar li {
+  margin: 15px 0;
+}
+
+.side-navbar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  padding: 8px 12px;
+  display: block;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.side-navbar a:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+
+/* Container Box */
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.Bolder{
+ font-weight: 700;
+}
+
+/* Header Section */
+header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.profile-pic {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #007bff;
+  box-shadow: 0 0 12px rgba(0, 123, 255, 0.3);
+}
+
+h1 {
+  margin: 10px 0 0 0;
+  font-size: 28px;
+  color: #007bff;
+
+}
+
+.tagline {
+  color: #666;
+  font-style: italic;
+  margin: 0px;
+}
+
+/* Section Titles */
+h2 {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 6px;
+  color: #2c3e50;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+/* Education */
+.education {
+  margin-top: 30px;
+}
+
+.edu-entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.edu-left {
+  max-width: 70%;
+}
+
+.edu-right {
+  text-align: right;
+  font-weight: 500;
+  color: #555;
+}
+
+.edu-right .location {
+  font-style: italic;
+  font-size: 14px;
+  color: #777;
+}
+/* Experience */
+.experience {
+  margin-top: 40px;
+}
+
+.exp-entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.exp-left {
+  max-width: 70%;
+}
+
+.exp-right {
+  text-align: right;
+  font-weight: 500;
+  color: #555;
+}
+
+.exp-right .location {
+  font-style: italic;
+  font-size: 14px;
+  color: #777;
+}
+
+.exp-details {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.exp-details li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+/* Lists */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: #e9ecef;
+  margin: 6px 0;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+/* Extra curricular */
+
+
+/* Responsive */
+@media (max-width: 600px) {
+  .container {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+  }
+}
+a{
+    text-decoration: underline;
+    color: black;
+}
